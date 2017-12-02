@@ -1,6 +1,8 @@
+from config import connectConfig
 # connect to server
+
 import socket
-print 'setup server ...'
+print 'join the room ...'
 ss = socket.socket()
 # prepare to start
 
